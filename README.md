@@ -1,1 +1,2 @@
-# simplilearnPhase2Project1
+I have automated testing of the Essence e-commerce Order flow using Selenium and TestNG on a Maven project (Scenario 1), and using Cucumber and JUnit on a different Maven project (Scenario 2).
+For improved visibility and organization on Scenario 2, I created a Utils class to import the WebDriver method OpenBrowser() to the Step definition file, and a Repository class to import the page locators to the Step definition file. There is also a Page Object Model class for each of the web pages accessed (Shop page and Checkout page) for better code traceability.
